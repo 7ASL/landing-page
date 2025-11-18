@@ -41,7 +41,7 @@ nav .hero-logo {
     color: #F9FAF8;
 }
 
-nav .hero-secondary {
+.hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -87,6 +87,37 @@ nav .hero-secondary {
 }
 
 /* INFORMATION */
+.info {
+    padding: 4% 12% 8%;
+}
+
+.info .flex-container {
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.info h2 {
+    text-align: center;
+    padding-bottom: 6%;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-item {
+    width: 150px;
+}
+
+.info-img {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
 
 /* TESTIMONIAL */
 
