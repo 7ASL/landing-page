@@ -17,6 +17,8 @@ body {
     color: white;
 }
 
+/* HEADER (NAV) */
+
 nav a {
     text-decoration: none;
     color: white;
@@ -43,3 +45,51 @@ nav .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* HERO */
+
+.main {
+    padding: 8% 12%;
+    gap: 30px;
+    align-items: stretch;
+}
+
+.main h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.main .text {
+    flex: 1;
+}
+
+.main .text button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 6px 24px;
+    margin: 8px 0;
+    border: 0;
+    border-radius: 6px;
+}
+
+.main p {
+    padding: 4px 0;
+}
+
+.main .image-placeholder {
+    display: flex;
+    flex: 1;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+/* INFORMATION */
+
+/* TESTIMONIAL */
+
+/* CALL TO ACTION */
+
+/* FOOTER */
