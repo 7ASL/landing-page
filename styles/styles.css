@@ -121,6 +121,22 @@ nav .hero-logo {
 
 /* TESTIMONIAL */
 
+.testimonial {
+    padding: 10% 24%;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.testimonial h3 {
+    align-self: flex-end;
+    font-size: 24px;
+    padding-right: 24px;
+}
+
+
 /* CALL TO ACTION */
 
 /* FOOTER */
