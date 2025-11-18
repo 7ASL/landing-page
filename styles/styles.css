@@ -138,5 +138,30 @@ nav .hero-logo {
 
 
 /* CALL TO ACTION */
+.action {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 8% 12%;
+    padding: 4% 10%;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 0;
+    border-radius: 12px;
+    justify-content: space-between;
+    line-height: 24px;
+    gap: 20px;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 6px 24px;
+    border: 2px solid #E5E7EB;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
 
 /* FOOTER */
