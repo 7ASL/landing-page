@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.dark-background {
+    background-color: #1F2937;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12%;
+}
+
+nav .container {
+    display: flex;
+    gap: 24px;
+}
+
+nav .hero-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+nav .hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
